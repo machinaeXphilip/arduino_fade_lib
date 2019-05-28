@@ -15,7 +15,7 @@
 #include "Arduino.h"
 #include "Fade.h"
 
-Fade::Fade(int steps, int interval, int minimum, int maximum, int direction = 1)
+Fade::Fade(int steps, int interval, int minimum, int maximum, int direction)
 {
   number = minimum;
   //number = 120; // testing only
